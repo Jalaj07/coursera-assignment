@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300&family=Noto+Sans&display=swap');
 
 *{
 	margin: 0;
@@ -7,13 +7,13 @@
 }
 body{
 	background-color: green;
-	font-family: 'Sriracha', cursive;
+	font-family: 'Noto Sans', sans-serif;
 }	
 .wrapper{
 	margin-top: 5%;
 }
 .wrapper h1{
-	font-family: 'Metal Mania', cursive;
+	font-family: 'Muli', sans-serif;
 	font-size: 52px;
 	margin-bottom: 61px;
 	text-align: center;
