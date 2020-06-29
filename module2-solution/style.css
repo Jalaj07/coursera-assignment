@@ -83,11 +83,11 @@ div{
 	top: 0px;
 	right: 0px;
 }
-@media (min-width: 992px) and (max-width: 1215px){
+@media (min-width: 992px) {
 	#section
 	{
 		width: 29.8%;
-		height: 175px;
+		height: auto;
 		font-size: 14px;
 		margin-left: 15px;
 		padding-top: 12.2px;
@@ -95,7 +95,7 @@ div{
 	#section1
 	{
 		width: 29.8%;
-		height: 175px;
+		height: auto;
 		font-size: 14px;
 		margin-left: 15px;
 		padding-top: 12.2px;
@@ -105,7 +105,7 @@ div{
 	#section
 	{
 		width: 45.4%;
-		height: 173px;
+		height: auto;
 		font-size: 15px;
 		margin-left: 15px;
 		padding-top: 17px;
@@ -113,7 +113,7 @@ div{
 	#section1
 	{
 		width: 94.3%;
-		height: 110px;
+		height: auto;
 		font-size: 15px;
 		margin-left: 15px;
 		padding-top: 17px;
@@ -123,7 +123,7 @@ div{
 	#section
 	{
 		width: 95%;
-		height: 130px;
+		height: auto;
 		font-size: 15px;
 		margin-left: 15px;
 		padding-top: 15px;	
@@ -131,7 +131,7 @@ div{
 	#section1
 	{
 		width: 95%;
-		height: 130px;
+		height: auto;
 		font-size: 15px;
 		margin-left: 15px;
 		padding-top: 15px;
