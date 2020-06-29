@@ -1,65 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@300&family=Noto+Sans&display=swap');
 
 *{
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 }
 body{
-	background-color: yellow;
+	background-color: #7ff081;
 	font-family: 'Noto Sans', sans-serif;
-}	
-.wrapper{
-	margin-top: 5%;
 }
-.wrapper h1{
-	font-family: 'Muli', sans-serif;
-	font-size: 52px;
-	margin-bottom: 61px;
+h1{
+	color: #07031a;
 	text-align: center;
+	text-transform: uppercase;
+	margin-bottom:95px;
+	margin-top: 70px; 
 }
-
-.menu{
-	display: flex;	
-	width: auto;
-	justify-content: center;
-}
-
-.menu .menu_name{
-	background: grey;
-	border-style: solid;
-	border-width: 5px;
-	border-color: black;
-	margin: 5px;
-	margin-bottom: 10px;
-	width: 300px;
-	padding: 20px;
-	line-height: 20px;
-	
-
-}
-
-.menu .menu_name h3{
-	color: black;
-	width: 100px;
-	font-size: 20px;
-	margin: 1px;
+div{
+	width: 100%;
+	overflow:hidden;
+	/*background-color: skyblue;*/
 	position: relative;
-	top: -10px;
-	right: -130px;
-	border: black solid 2px;
-	
-}	
-
- #h1{
- 	background-color: red;
-
- }
-
- #h2{
- 	background-color: blue;
- }
-
- #h3{
- 	background-color: green;
- }
+}
+/*div:after {
+  content: "";
+  display: block;
+  clear: both;
+}*/
+#section{
+	background-color: #dce7f7;
+	padding: 17px;
+	border: 4px solid black;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 19px;
+	height: 184px;
+	width: 30.3%;
+	float: left;
+}
+#section1{
+	background-color: #dce7f7;
+	padding: 17px;
+	border: 4px solid black;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 19px;
+	height: 184px;
+	width: 30%;
+	float: left;
+}
+#Chicken{
+	background-color: red;
+	border: 2px solid black;
+	padding: 0 30px 0 30px;
+	width: 120px;
+	margin-bottom: 30px;
+	text-align: center;
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	top: 0px;
+	right: 0px;
+}
+#Beef{
+	background-color: blue;
+	border: 2px solid black;
+	padding: 0 30px 0 30px;
+	width: 120px;
+	margin-bottom: 30px;
+	text-align: center;
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	top: 0px;
+	right: 0px;
+}
+#Sushi{
+	background-color: green;
+	border: 2px solid black;
+	padding: 0 30px 0 30px;
+	width: 120px;
+	margin-bottom: 30px;
+	text-align: center;
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	top: 0px;
+	right: 0px;
+}
+@media (min-width: 992px) and (max-width: 1215px){
+	#section
+	{
+		width: 29.8%;
+		height: 175px;
+		font-size: 14px;
+		margin-left: 15px;
+		padding-top: 12.2px;
+	}
+	#section1
+	{
+		width: 29.8%;
+		height: 175px;
+		font-size: 14px;
+		margin-left: 15px;
+		padding-top: 12.2px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#section
+	{
+		width: 45.4%;
+		height: 173px;
+		font-size: 15px;
+		margin-left: 15px;
+		padding-top: 17px;
+	}
+	#section1
+	{
+		width: 94.3%;
+		height: 110px;
+		font-size: 15px;
+		margin-left: 15px;
+		padding-top: 17px;
+	}
+}
+@media (min-width: 544px) and (max-width: 767px){
+	#section
+	{
+		width: 95%;
+		height: 130px;
+		font-size: 15px;
+		margin-left: 15px;
+		padding-top: 15px;	
+	}
+	#section1
+	{
+		width: 95%;
+		height: 130px;
+		font-size: 15px;
+		margin-left: 15px;
+		padding-top: 15px;
+	}
+}
