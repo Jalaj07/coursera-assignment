@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 body{
-	background-color: green;
+	background-color: yellow;
 	font-family: 'Noto Sans', sans-serif;
 }	
 .wrapper{
@@ -61,5 +61,5 @@ body{
  }
 
  #h3{
- 	background-color: orange;
+ 	background-color: green;
  }
