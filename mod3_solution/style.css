@@ -5,7 +5,7 @@
 
 .navbar{
 	border-radius: 0px;
-	background-color: #0b106b;
+	background-color: #e8674a;
 }
 
 .navbar-brand{
@@ -38,14 +38,14 @@
 }
 
 .icon-bar{
-	background-color: #bed7e8 ;
+	background-color: #cff7bc ;
 }
 
 
 .main-title{
   margin-bottom: 15px;
   text-align: center;
-  color: #38afff;
+  color: #5179f0;
   font-size: 50px;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: bold;
@@ -82,7 +82,7 @@ li{
 	width: auto;
 	height: auto;
 	color: black;
-	background-color: #2190db ;
+	background-color: #61ffbd ;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	padding: 20px;
 }
